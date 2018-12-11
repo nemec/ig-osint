@@ -1,0 +1,3 @@
+# requires Python 3 and modules sqlite3 and instagram_private_api (https://github.com/ping/instagram_private_api)
+
+python3 ig_followers.py --settings 'settings.json' -u 'myusername' -p 'mypassword' -t bad_actors --debug --user-list ig_user_list.txt -d ig_graph.db
